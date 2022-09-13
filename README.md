@@ -16,4 +16,6 @@ This whole part rely on an event camera from IniVation and their python library 
 
 Located in folder ``data``.
 
-Comparison done by running ``contour_comparator.py`` or ``featour_comparator.py``.
+Runs a comparison between ground-truth and position estimation for the experiment designed to test the proposed methods for this internship.
+
+Comparison done by running ``contour_comparator.py`` or ``featour_comparator.py``. Each script compares a single method (contour or feature) against the ground-truth gathered during the experiment.
